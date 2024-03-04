@@ -1,7 +1,7 @@
 #include "plik_bin.h"
 #include "stos.h"
 #include <stdio.h>
-
+// nowy komentarz
 void zapis_do_bin(char* nazwa_pliku, stack* stos)
 {
     FILE* plik = fopen(nazwa_pliku, "wb");
